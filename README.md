@@ -33,3 +33,9 @@ python -m http.server 8000
 ```
 
 브라우저에서 `http://localhost:8000` 접속.
+
+
+## 관리자 대시보드
+- 경로: `/admin/`
+- 정적 MVP이며 브라우저 localStorage 기반입니다.
+- 실제 운영 전 인증/DB/API 연결이 필요합니다.
